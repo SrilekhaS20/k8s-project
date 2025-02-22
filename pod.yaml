@@ -28,6 +28,6 @@ spec:
     spec:
       containers:
       - name: hello
-        image: sri24devops/pythonapp:${BUILD_NUMBER}
+        image: sri24devops/pythonapp:latest
         ports:
         - containerPort: 80
